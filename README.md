@@ -35,8 +35,16 @@ Logical circuit of the above expressions is given below:
 Figure 02  Encoder 8 * 3
 
 **Procedure**
+Define the 8-to-3 encoder truth table, ensuring only one input is high at a time.
 
-/* write all the steps invloved */
+Create a Verilog module using dataflow modeling with assign and ternary (? :) operators.
+
+Assign the output bits (dout) based on which input (din[7:0]) is high.
+
+Write a testbench to apply one-hot input combinations and monitor outputs.
+
+Simulate and verify the output matches the expected binary values from the truth table.
+
 
 **PROGRAM**
 module exp5(din,a,b,c);
